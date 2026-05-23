@@ -1,1 +1,73 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Musica</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .cabecalho {
+            background-color: rgb(94, 168, 190);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+        }
+        .menu {
+            display: flex;
+            list-style: none;
+            gap: 44px;
+        }
+        .principal {
+            display: flex;
+            justify-content: space-around;
+            height: 580px;
+            background-color: rgb(236, 255, 205);
+            align-items: center;
+        }
+        .secundaria {
+            display: flex;
+            background-color: rgb(194, 226, 143);
+        }
+        .rodape {
+            background-color: rgb(94, 168, 190);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80px;
+        }
+    </style>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <header class="cabecalho">
+        <h2 class="titulo-cabecalho">Música</h2>
+        <ul class="menu">
+            <li>Início</li>
+            <li>Sobre</li>
+            <li>Contato</li>
+        </ul>
+    </header>
+    <section class="principal">
+        <h2 class="descricao">"A vida é oque acontece com 
+            você enquanto você está ocupado fazendo outros
+             planos". John Lennon</h2>
+    </section>
+    <section class="secundaria">
+        <ul class="lista">
+            <li>Pop</li>
+            <li>Rock</li>
+            <li>MPB</li>
+            <li>Instrumental</li>
+            <li>Sertanejo</li>
+            <li>Bossa Nova</li>
+        </ul>
+    </section>
+    <footer class="rodape">
+        <a style="text-decoration: none; color: chartreuse" 
+    href="https://spotify.com" target="_blank">Ouça Música aqui</a>
+    </footer>
+</body>
+</html>
